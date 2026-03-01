@@ -6,7 +6,7 @@
 <title>今月の易経ミニ占い</title>
 <style>
   body {
-    background: #fff9e6; /* 明るく優しいパステルイエロー */
+    background: #fff9e6; 
     font-family: 'Arial', 'ヒラギノ角ゴ', sans-serif;
     display: flex;
     flex-direction: column;
@@ -15,22 +15,22 @@
     text-align: center;
     margin: 0;
   }
-  /* タイトルに🌸を追加し、サイズを調整 */
+  
   h1 {
-    color: #ff007d;
+    color: #ff007d; /* タイトルの色（ピンク） */
     font-size: 26px;
     margin: 30px 0 10px;
   }
-  /* メッセージを小さくして1行に収める */
+
   #fortune {
     width: 100%;
     max-width: 600px;
     margin-bottom: 30px;
     color: #666;
     font-size: 16px;
-    white-space: nowrap; /* 絶対に改行させない */
+    white-space: nowrap;
   }
-  /* 結果表示後の枠と文字サイズ */
+
   #fortune.revealed {
     text-align: left;
     background: #fff;
@@ -39,23 +39,25 @@
     border: 2px dashed #ff99cc;
     font-size: 18px; 
     color: #333;
-    white-space: normal; /* 結果は改行を許可 */
+    white-space: normal;
     box-sizing: border-box;
   }
-  /* ボタンのサイズと設定 */
+
   #drawBtn {
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
-    background: #ff99cc;
+    background: #ffb366; /* ボタンをオレンジ系にしました */
     color: white;
     font-weight: bold;
     cursor: pointer;
     font-size: 20px;
   }
+
   .hidden {
     display: none;
   }
+
   .info-text {
     color: #ff007d;
     font-size: 14px !important;
